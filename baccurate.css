@@ -83,9 +83,10 @@ img {
 }
 #feature-five img {
     margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 #feature-six img {
-/*    margin: 0;*/
+    /*    margin: 0;*/
     margin-bottom: -14rem;
 }
 #feature-seven {
@@ -104,16 +105,40 @@ img {
     display: flex;
     align-items: flex-end;
 }
+#feature-seven ul {
+    list-style-type: none;
+}
+#feature-eight {
+    background-color: rgba(134, 242, 177, 0.10);
+    max-width: 100%;
+    padding-bottom: 4rem;
+    /*
+    height: 100%;
+    width: 100%;
+*/
+    margin-left: auto;
+    /*    margin: auto;*/
+    display: flex;
+    align-items: center;
+}
+#feature-eight img {
+    display: flex;
+    align-items: flex-start;
+}
+
+/*
 #stage2 {
     background: url('img/Logistic-bAccurate-Lifecycle.jpg') center center no-repeat;
     background-size: cover;
     color: antiquewhite;
     height: 200%;
     width: 100%;
-    margin-top: 10rem;
+    margin-top: 1rem;
     display: flex;
     align-items: center;
 }
+*/
+
 #stage2-caption {
     font-size: 1.4rem;
     font-weight: 200;
