@@ -4,13 +4,11 @@ html,
 body {
     height: 100%;
 }
-
 body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     color: #6c6f73;
 }
-
 h1,
 h2,
 h3,
@@ -18,29 +16,24 @@ h4,
 h5 {
     color: #333;
 }
-
 h6 {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 0.8rem;
     letter-spacing: 0.1rem;
 }
-
 img {
     max-width: 100%;
 }
-
 .blockquote {
     font-size: 1.6rem;
     color: #333;
     borader: none;
     padding: 0;
 }
-
 .blockquote-footer {
     margin: 1rem 0 0;
 }
-
 #stage {
     background: url('img/delivery-van.jpg') center center no-repeat;
     background-size: cover;
@@ -50,7 +43,6 @@ img {
     display: flex;
     align-items: center;
 }
-
 #stage-caption {
     font-size: 1.4rem;
     font-weight: 200;
@@ -58,7 +50,6 @@ img {
     margin: 0 auto;
     text-align: center;
 }
-
 #stage-caption h1 {
     -webkit-text-stroke: 1px black;
     color: #00a3b4;
@@ -67,48 +58,52 @@ img {
     font-weight: bold;
     text-transform: uppercase;
 }
-
 .feature-content {
     padding: 8rem 0;
     overflow: hidden;
 }
-
 .feature-content img {
     margin-bottom: -8rem;
 }
-
 .feature-dark {
     background: #262F36;
     color: white;
 }
-
 .feature-dark h2 {
     color: white;
 }
-
 .feature-alt {
     background: #f0f0f0;
 }
-
 .feature-alt2 {
     background: #ffffff;
 }
-
 #feature-three img {
     margin: 0;
 }
-
 #feature-five img {
     margin-top: 2rem;
 }
-
+#feature-six img {
+/*    margin: 0;*/
+    margin-bottom: -14rem;
+}
 #feature-seven {
     color: white;
+    margin-left: auto;
+    /*
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+*/
 }
-
-
+#feature-seven-contact {
+    color: grey;
+    margin-left: auto;
+    font-size: 1.4rem;
+    font-weight: 200;
+    display: flex;
+    align-items: flex-end;
+}
 #stage2 {
     background: url('img/Logistic-bAccurate-Lifecycle.jpg') center center no-repeat;
     background-size: cover;
@@ -119,7 +114,6 @@ img {
     display: flex;
     align-items: center;
 }
-
 #stage2-caption {
     font-size: 1.4rem;
     font-weight: 200;
@@ -127,13 +121,11 @@ img {
     margin: 0 auto;
     text-align: center;
 }
-
 #stage2-caption h1 {
     color: #0492b4;
     font-weight: bold;
     text-transform: uppercase;
 }
-
 #main-footer {
     background: #262F36;
     color: white;
@@ -143,9 +135,8 @@ img {
     display: flex;
     align-items: center;
 }
-
 #main-footer a {
-    color:aqua;
+    color: aqua;
     padding: 1rem;
 }
 
